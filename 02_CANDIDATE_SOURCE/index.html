@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-5OtTXEFkwrKpDl85rfNwdn9jWHm34IBgEIvViIudnsM='; style-src 'sha256-NbbAHoZSrG7lDWthuDaadJK539rn1ExRjmuHZXTDluI='; img-src data:; connect-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Perspektiven entdecken · NEXUS OMEGA · Isolierter Entwurf</title>
+<style>
+/* styles inlined in dist build - see source/styles.css for modular version */
+:root{color-scheme:dark;--bg:#0b1221;--panel:#131f31;--line:#365169;--text:#eef3f8;--muted:#bbcbd7;--accent:#80e8d0;--mark:#ffd087;--focus:#ffd087}*{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.56}a{color:var(--accent)}a:focus-visible{outline:3px solid var(--focus);outline-offset:4px}.skip{position:absolute;top:-5rem;left:1rem;background:var(--panel);padding:.75rem;z-index:5}.skip:focus{top:.5rem}.top{border-bottom:1px solid #2c4157;display:flex;align-items:center;justify-content:space-between;padding:.85rem 1.25rem;gap:1rem;flex-wrap:wrap}.brand{font-weight:700;letter-spacing:.04em}.eyebrow{color:var(--muted);font-size:.9rem}.container{max-width:920px;margin:0 auto;padding:1.25rem}.intro{margin-bottom:1.5rem}.intro h1{font-size:clamp(1.6rem,3vw,2.1rem);line-height:1.2;margin:.35rem 0 0.75rem}.disclaimer{color:var(--muted);font-size:.95rem}.guide{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin:1.5rem 0}.guide>div{background:var(--panel);border:1px solid #2c4157;border-radius:12px;padding:1rem}.experience{margin:2rem 0}.stage{background:var(--panel);border:1px solid #2c4157;border-radius:16px;padding:1rem;margin-top:1rem}.main-panel{min-height:240px;display:flex;align-items:center;justify-content:center}.main-panel[hidden]{display:none}.cube-svg{width:min(100%,280px);height:auto}.edge{stroke:var(--line);stroke-width:2;fill:none}.edge.back{opacity:.45}.marker{fill:var(--mark)}.marker-label{fill:#1a1200;font-size:12px;font-weight:700;font-family:system-ui,sans-serif}.controls{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}.controls a,.controls button{background:#1a2a40;border:1px solid #365169;color:var(--text);padding:.55rem .9rem;border-radius:999px;text-decoration:none;font:inherit;cursor:pointer}.controls a[aria-current="true"]{background:#234056;border-color:var(--accent);color:var(--accent)}.status{min-height:3rem;color:var(--muted);margin:.5rem 0 1rem}.compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem;margin-top:1.5rem}.thumb{background:#0f1a2a;border:1px solid #2c4157;border-radius:12px;padding:.75rem;text-align:center}.thumb figcaption{margin-top:.4rem;color:var(--muted);font-size:.9rem}.hint{color:var(--muted);font-size:.92rem}.next{margin:2.5rem 0 1rem}.destinations{display:flex;flex-direction:column;gap:.6rem;margin:1rem 0}.destinations a{display:inline-flex;align-items:center;gap:.4rem}footer{border-top:1px solid #2c4157;padding:1rem 1.25rem;color:var(--muted);font-size:.85rem;text-align:center}@media (max-width:360px){.controls a,.controls button{width:100%;text-align:center}}
+</style>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<header class="top"><span class="brand">NEXUS OMEGA</span><span class="eyebrow">Isolierter Forschungskandidat · C1</span></header>
+<main id="inhalt" class="container">
+  <div class="intro"><p class="eyebrow">Ein Blick verändert nicht den Gegenstand</p>
+  <h1>Dieselbe Form. Eine andere Perspektive.</h1>
+  <p>Eine Form. Drei Blickrichtungen. Entdecke, wie ein neuer Blickwinkel unser Verständnis verändert, ohne den Gegenstand zu verändern. Ganz ohne Anmeldung oder Datensammlung.</p>
+  <p class="disclaimer">Illustrative Geometrie, keine Messung von KI, Bewusstsein oder Kollektivzuständen.</p></div>
+  <section class="guide" aria-label="Drei Schritte zur Orientierung">
+  <div><b>01 · Wahrnehmen</b><p>Erkenne den gemeinsamen Gegenstand und die markierte Ecke A.</p></div>
+  <div><b>02 · Blick wechseln</b><p>Wähle bewusst Vorne, Oben oder Rechts. Es bleibt derselbe Würfel.</p></div>
+  <div><b>03 · Unterscheiden</b><p>Beschreibe, was sich im Bild verändert hat – nicht, was du gern vermuten würdest.</p></div>
+</section>
+<section class="experience" aria-labelledby="ansicht-heading">
+   <div><h2 id="ansicht-heading">Ein Objekt. Drei Ansichten.</h2>
+    <p>Der kleine Kreis mit dem Buchstaben <strong>A</strong> bezeichnet in jeder Ansicht dieselbe Ecke.</p></div>
+   <div class="stage" aria-label="Ansicht des Würfels">
+    <div class="main-panel" id="main-front" data-main-view="front"><!-- SVG content abbreviated for length; full geometry in original package --></div>
+    <div class="main-panel" id="main-top" data-main-view="top" hidden><!-- SVG --></div>
+    <div class="main-panel" id="main-right" data-main-view="right" hidden><!-- SVG --></div>
+   </div>
+   <div class="controls" role="group" aria-label="Ansicht wählen">
+     <a href="#view-front" data-view="front" aria-current="true">Von vorne</a>
+     <a href="#view-top" data-view="top">Von oben</a>
+     <a href="#view-right" data-view="right">Von rechts</a>
+     <a href="#view-front" id="reset">Zurücksetzen</a>
+   </div>
+   <p id="view-status" class="status" aria-live="polite">Ansicht: Vorne. Du betrachtest den Würfel von vorne. Die markierte Ecke A ist in allen Ansichten dieselbe.</p>
+   <div class="compare" aria-label="Vergleichsansichten">
+     <!-- three thumb figures -->
+   </div>
+   <p class="hint">Auch ohne JavaScript bleiben alle drei Ansichten und ihre Beschriftungen erhalten.</p>
+  </section>
+  <section class="next" aria-label="Weitere Bereiche"><h2>Weiterdenken und Quellen prüfen</h2><p>Diese Perspektivübung erklärt räumliche Ansichten. Sie ist weder ein Live-Feed noch ein Messinstrument.</p></section>
+</main>
+<footer>NEXUS OMEGA · C1_DESCRIPTIVE_ONLY · Prototyp nicht produktiv freigegeben · Keine Drittanbieter-Skripte</footer>
+<script>
+/* Minimal progressive enhancement - see source/app.js */
+(()=>{'use strict';
+const supported=Object.freeze({front:{title:'Vorne',detail:'Du betrachtest den Würfel von vorne. Die markierte Ecke A ist in allen Ansichten dieselbe.'},top:{title:'Oben',detail:'Du betrachtest denselben Würfel von oben. Ecke A bleibt markiert.'},right:{title:'Rechts',detail:'Du betrachtest denselben Würfel von rechts. Ecke A bleibt markiert.'}});
+const status=document.getElementById('view-status');
+const panels=Array.from(document.querySelectorAll('[data-main-view]'));
+const links=Array.from(document.querySelectorAll('[data-view]'));
+if(!status||panels.length!==3||links.length!==3) return;
+const readFragment=()=>{const match=/^#view-(front|top|right)$/.exec(location.hash);return match?match[1]:'front';};
+const show=(name)=>{ const key=Object.prototype.hasOwnProperty.call(supported,name)?name:'front'; for(const panel of panels) panel.hidden=panel.dataset.mainView!==key; for(const link of links){if(link.dataset.view===key){link.setAttribute('aria-current','true');}else link.removeAttribute('aria-current');} status.textContent='Ansicht: '+supported[key].title+'. '+supported[key].detail; };
+addEventListener('hashchange',()=>show(readFragment()));
+addEventListener('popstate',()=>show(readFragment()));
+for(const link of links){link.addEventListener('click',event=>{ event.preventDefault(); const key=link.dataset.view; if(!Object.prototype.hasOwnProperty.call(supported,key))return; if(readFragment()!==key)history.pushState(null,'','#view-'+key); show(key); });}
+const reset=document.getElementById('reset');
+reset?.addEventListener('click',event=>{event.preventDefault();if(readFragment()!=='front')history.pushState(null,'','#view-front');show('front');});
+show(readFragment());
+})();
+</script>
+</body></html>
