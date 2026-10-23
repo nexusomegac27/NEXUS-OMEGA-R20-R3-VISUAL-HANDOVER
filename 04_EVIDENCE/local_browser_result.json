@@ -1,0 +1,64 @@
+[
+  {
+    "width_requested": 320,
+    "innerWidth": 320,
+    "scrollWidth": 320,
+    "devicePixelRatio": 1,
+    "no_horizontal_overflow": true,
+    "top_selected": true,
+    "visible_main_panels": 1,
+    "reset_to_front": true,
+    "unexpected_network_requests": [],
+    "errors": [],
+    "initial_status": "Ansicht: Vorne. Du betrachtest den Würfel von vorne. Die markierte Ecke A ist in allen Ansichten dieselbe.",
+    "focused_tag_after_tab": "A"
+  },
+  {
+    "width_requested": 375,
+    "innerWidth": 375,
+    "scrollWidth": 375,
+    "devicePixelRatio": 1,
+    "no_horizontal_overflow": true,
+    "top_selected": true,
+    "visible_main_panels": 1,
+    "reset_to_front": true,
+    "unexpected_network_requests": [],
+    "errors": [],
+    "initial_status": "Ansicht: Vorne. Du betrachtest den Würfel von vorne. Die markierte Ecke A ist in allen Ansichten dieselbe.",
+    "focused_tag_after_tab": "A"
+  },
+  {
+    "width_requested": 768,
+    "innerWidth": 768,
+    "scrollWidth": 768,
+    "devicePixelRatio": 1,
+    "no_horizontal_overflow": true,
+    "top_selected": true,
+    "visible_main_panels": 1,
+    "reset_to_front": true,
+    "unexpected_network_requests": [],
+    "errors": [],
+    "initial_status": "Ansicht: Vorne. Du betrachtest den Würfel von vorne. Die markierte Ecke A ist in allen Ansichten dieselbe.",
+    "focused_tag_after_tab": "A"
+  },
+  {
+    "width_requested": 1440,
+    "innerWidth": 1440,
+    "scrollWidth": 1440,
+    "devicePixelRatio": 1,
+    "no_horizontal_overflow": true,
+    "top_selected": true,
+    "visible_main_panels": 1,
+    "reset_to_front": true,
+    "unexpected_network_requests": [],
+    "errors": [],
+    "initial_status": "Ansicht: Vorne. Du betrachtest den Würfel von vorne. Die markierte Ecke A ist in allen Ansichten dieselbe.",
+    "focused_tag_after_tab": "A"
+  },
+  {
+    "js_disabled": true,
+    "visible_figures": 3,
+    "noscript_message": 1,
+    "has_illustration_disclaimer": 1
+  }
+]
